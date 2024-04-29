@@ -51,9 +51,10 @@ nav ul, .team-list {
 }
 
 .team-member img {
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  object-fit: cover;
 }
 
 nav ul li, .team-list .team-member {
