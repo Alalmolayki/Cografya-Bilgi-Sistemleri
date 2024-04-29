@@ -181,7 +181,7 @@ input[type="submit"]:hover {
 }
  
 .near-list li, .late-list li {
- background-color: rgb(9, 148, 150);
+ background-color: rgb(218, 175, 32);
  
  color: white;
  width: auto;
@@ -299,13 +299,25 @@ input[type="submit"]:hover {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 430px){
+  footer {
+    position: relative;
+  }
   .team-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .contact-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 100px){
   .contact-section .container {
     display: flex;
     flex-wrap: wrap;
