@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icon.svg">
     <link rel="stylesheet" href="styles.css">
     <title>Coğrafya Bilgi Sistemleri</title>
 </head>
 
 <body>
     <header>
-        <h1><a href="#cbsnedir">Coğrafya Bilgi Sistemleri</a></h1>
+        <h1><a href="#cbsnedir"><img class="icon" src="img/icon.svg" alt="Türkiye Haritası">Coğrafya Bilgi Sistemleri<img class="icon" src="img/icon.svg" alt="Türkiye Haritası"></a></h1>
         <nav>
             <ul>
                 <li><a href="#anasayfa">Anasayfa</a></li>
                 <li><a href="#cbsnedir">CBS Nedir?</a></li>
                 <li><a href="#hakkimizda">Hakkımızda</a></li>
-                <li><a href="#iletisim">İletişim</a></li>
                 <li><a href="#oyun">Oyun</a></li>
                 <li><a href="#guncellemeler">Beklenen Güncellemeler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
             </ul>
         </nav>
     </header>
@@ -95,33 +96,6 @@
         </ul>
     </section>
 
-    <section id="iletisim" class="contact-section">
-        <div class="container">
-            <h2>İletişim Formu</h2>
-            <form action="#" method="post" id="contactForm">
-                <label for="name">Ad-Soyad:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">E-posta Adresiniz:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="type">Başvuru Tipi</label>
-                <select id="type" name="type" required>
-                    <option value="">Lütfen Seçiniz</option>
-                    <option value="request">Talep</option>
-                    <option value="complaint">Şikayet</option>
-                    <option value="suggestion">Öneri</option>
-                    <option value="thank">Teşekkür</option>
-                </select>
-
-                <label for="message">Mesajınız:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <input style="background-color: rgb(218, 175, 32);" type="submit" value="Gönder">
-            </form>
-        </div>
-    </section>
-
     <section id="oyun" class="game-section">
         <h2>Oyun Bölümü</h2>
         <div class="game-container">
@@ -182,6 +156,33 @@
                     <li>Tüm şehirlerin kullanıma açılması</li>
                 </ul>
             </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="contact-section">
+        <div class="container">
+            <h2>İletişim Formu</h2>
+            <form action="#" method="post" id="contactForm">
+                <label for="name">Ad-Soyad:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="type">Başvuru Tipi</label>
+                <select id="type" name="type" required>
+                    <option value="">Lütfen Seçiniz</option>
+                    <option value="request">Talep</option>
+                    <option value="complaint">Şikayet</option>
+                    <option value="suggestion">Öneri</option>
+                    <option value="thank">Teşekkür</option>
+                </select>
+
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input style="background-color: rgb(218, 175, 32);" type="submit" value="Gönder">
+            </form>
         </div>
     </section>
 
