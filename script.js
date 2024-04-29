@@ -2,10 +2,10 @@
 var footerHeight = document.querySelector('footer').offsetHeight;
 
 // İçeriğin altına footer yüksekliği kadar boşluk ekle
-document.querySelector('#guncellemeler').style.marginBottom = footerHeight + 5 + 'px';
+document.querySelector('#iletisim').style.marginBottom = footerHeight + 5 + 'px';
 
 // Formu göndermeden önce alanları kontrol et
-document.getElementById('gonderButton').addEventListener('click', function(event) {
+document.querySelector('input[type="submit"]').addEventListener('click', function(event) {
   var adInput = document.getElementById('ad');
   var emailInput = document.getElementById('email');
   var selectInput = document.getElementById('tur');
