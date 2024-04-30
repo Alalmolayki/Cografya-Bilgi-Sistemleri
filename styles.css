@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 body {
-  /* font-family: 'Arial', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
@@ -9,12 +8,12 @@ body {
 }
 
 .icon{
-  height: 30px;
-  width: 30px;
+  height: 150px;
+  width: 200px;
 }
 
 header, footer {
-  background-color: rgb(218, 175, 32); /*#333*/
+  background-color: rgb(218, 175, 32);
   color: #4d4702;
   padding: 10px 0;
   text-align: center;
@@ -153,13 +152,8 @@ input, textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
   color: white;
   cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
 }
 
 .update {
@@ -308,6 +302,11 @@ input[type="submit"]:hover {
 @media screen and (max-width: 430px){
   footer {
     position: relative;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
   }
   .team-list {
     display: flex;
