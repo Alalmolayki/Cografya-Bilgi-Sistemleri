@@ -309,7 +309,7 @@ input[type="submit"] {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    position: absolute;
+    position: relative;
   }
   .team-list {
     display: flex;
