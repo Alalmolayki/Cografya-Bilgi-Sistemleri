@@ -301,10 +301,23 @@ input[type="submit"] {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 430px){
+.combine {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.combine section{
+  flex: 1;
+}
+
+@media screen and (max-width: 630px){
   footer {
     position: relative;
   }
+  .container {
+    display: flex;
+    flex-direction: column;
+}
   .team-list {
     display: flex;
     flex-direction: column;
