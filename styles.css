@@ -7,7 +7,7 @@ body {
   background-color: #f5f5f5;
 }
 #map { 
-  height: 900px;
+  height: 400px;
   z-index: 100000;
 }
 .icon{
@@ -102,7 +102,7 @@ button:hover {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   height: 50px;
   width: 100%;
