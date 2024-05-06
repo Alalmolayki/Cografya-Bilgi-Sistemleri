@@ -6,8 +6,9 @@ body {
   padding: 0;
   background-color: #f5f5f5;
 }
-#map {
+#map { 
   height: 900px;
+  z-index: 100000;
 }
 .icon{
   height: 150px;
