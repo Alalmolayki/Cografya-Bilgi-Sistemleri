@@ -27,6 +27,15 @@ header h1 a{
   text-decoration: none;
 }
 
+.city{
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
 nav ul, .team-list {
   list-style: none;
   padding: 0;
@@ -318,7 +327,11 @@ input[type="submit"] {
   .container {
     display: flex;
     flex-direction: column;
-}
+  }
+  .city{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .team-list {
     display: flex;
     flex-direction: column;
